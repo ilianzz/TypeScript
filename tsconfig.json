@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "removeComments": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "target": "es6",
+    "outDir": "./build",
+    "baseUrl": "./",
+    "resolveJsonModule": true,
+    "paths": {
+      "Modules/": ["src/modules/*"]
+    },
+    "lib": ["es2016","dom"],
+  },
+ 
+  "include": ["src/**/*.ts", "src/**/*.mjs"],
+  "exclude": [
+    "node_modules/**/*",
+    ".vscode/**/*"
+  ]
+}
